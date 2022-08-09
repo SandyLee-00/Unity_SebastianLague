@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
     float speed = 10;
     float damage = 1;
 
+    float lifetime = 3;
+
     public void SetSpeed(float newSpeed)
     {
         speed = newSpeed;
